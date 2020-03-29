@@ -1,15 +1,15 @@
 from rest_framework import serializers
 from event.models import (
     Vendor,
-    Location,
-    Favorites,
-    VendorDetail,
-    Category,
-    Faq,
-    Presenter,
-    Schedule,
-    MySchedule,
     Sponsor,
+    Presenter,
+    VendorDetail,
+    Schedule,
+    Category,
+    MySchedule,
+    Faq,
+    Favorites,
+    Location,
 )
 
 

@@ -1,15 +1,15 @@
 from django.contrib import admin
 from .models import (
     Vendor,
-    Location,
-    Favorites,
-    VendorDetail,
-    Category,
-    Faq,
-    Presenter,
-    Schedule,
-    MySchedule,
     Sponsor,
+    Presenter,
+    VendorDetail,
+    Schedule,
+    Category,
+    MySchedule,
+    Faq,
+    Favorites,
+    Location,
 )
 
 admin.site.register(MySchedule)

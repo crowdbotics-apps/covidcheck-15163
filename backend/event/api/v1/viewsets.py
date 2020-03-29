@@ -1,27 +1,27 @@
 from rest_framework import authentication
 from event.models import (
     Vendor,
-    Location,
-    Favorites,
-    VendorDetail,
-    Category,
-    Faq,
-    Presenter,
-    Schedule,
-    MySchedule,
     Sponsor,
+    Presenter,
+    VendorDetail,
+    Schedule,
+    Category,
+    MySchedule,
+    Faq,
+    Favorites,
+    Location,
 )
 from .serializers import (
     VendorSerializer,
-    LocationSerializer,
-    FavoritesSerializer,
-    VendorDetailSerializer,
-    CategorySerializer,
-    FaqSerializer,
-    PresenterSerializer,
-    ScheduleSerializer,
-    MyScheduleSerializer,
     SponsorSerializer,
+    PresenterSerializer,
+    VendorDetailSerializer,
+    ScheduleSerializer,
+    CategorySerializer,
+    MyScheduleSerializer,
+    FaqSerializer,
+    FavoritesSerializer,
+    LocationSerializer,
 )
 from rest_framework import viewsets
 
