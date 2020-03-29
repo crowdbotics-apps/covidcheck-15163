@@ -22,7 +22,6 @@ class MySchedule(models.Model):
 
 class Category(models.Model):
     "Generated Model"
-    description = models.TextField()
     name = models.CharField(null=True, blank=True, max_length=256,)
 
 

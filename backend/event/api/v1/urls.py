@@ -1,16 +1,16 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .viewsets import (
-    VendorViewSet,
-    SponsorViewSet,
-    PresenterViewSet,
-    VendorDetailViewSet,
-    ScheduleViewSet,
     CategoryViewSet,
-    MyScheduleViewSet,
     FaqViewSet,
     FavoritesViewSet,
     LocationViewSet,
+    MyScheduleViewSet,
+    PresenterViewSet,
+    ScheduleViewSet,
+    SponsorViewSet,
+    VendorViewSet,
+    VendorDetailViewSet,
 )
 
 router = DefaultRouter()
